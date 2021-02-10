@@ -1,0 +1,18 @@
+{
+    "name": "gitpod/kata-pair-session",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Fernando21GJ",
+            "email": "iti.carlosfernandogaonajuarez@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "Production\\": "src/production/"
+        }
+    }
+}

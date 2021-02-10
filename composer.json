@@ -9,5 +9,11 @@
             "email": "iti.carlosfernandogaonajuarez@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Production\\": "src/production/"
+        }
+    }
+
 }

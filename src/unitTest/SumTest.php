@@ -1,12 +1,12 @@
 <?php
 
+
 use PHPUnit\Framework\TestCase;
 use Production\Sum;
-
-class PruebaTest extends TestCase{
+class SumTest extends TestCase{
     
     /** @test */
-    public function check_that_one_is_one(){
+    public function sum_one_add_one(){
 
        //Setup
        $sum = new Sum;
@@ -14,7 +14,6 @@ class PruebaTest extends TestCase{
        $sum->add(1,1);
        // Checks / Assertions
         
-      //$this->assertEquals(1,1);
       $this->assertEquals(2, $sum->result());
     }
 }
